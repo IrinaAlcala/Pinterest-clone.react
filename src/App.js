@@ -1,6 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import Header from "./components/Header";
+import MainBoard from "./components/MainBoard";
+import unsplash from "./api/unsplash";
 
 function App() {
   const [pins, setPins] = useState([]);
